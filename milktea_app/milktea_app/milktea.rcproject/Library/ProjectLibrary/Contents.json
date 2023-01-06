@@ -1,0 +1,52 @@
+[
+  {
+    "libraryIdentifier" : "f7e7aa19e206ce522af9752e556ddbd7",
+    "format" : "model",
+    "displayName" : "full_cup.usdz"
+  },
+  {
+    "libraryIdentifier" : "5fa6815a73f85def42b210bcfb30da0e",
+    "format" : "model",
+    "displayName" : "milk.usdz"
+  },
+  {
+    "libraryIdentifier" : "528a25e04ddf38e17e9b763122b66fe1",
+    "format" : "model",
+    "displayName" : "null_cup.usdz"
+  },
+  {
+    "libraryIdentifier" : "e82ee2158f7f5caa2d0c2a7d95d24d65",
+    "format" : "model",
+    "displayName" : "Tea_Bag.usdz"
+  },
+  {
+    "libraryIdentifier" : "d84ff9fa40548692a3bed8fb44e8aa74",
+    "format" : "model",
+    "displayName" : "water_tool.usdz"
+  },
+  {
+    "libraryIdentifier" : "f4260810d72d64fa9b4e1b0f37d367c4",
+    "format" : "model",
+    "displayName" : "desk.usdz"
+  },
+  {
+    "libraryIdentifier" : "fcb226b6ab9ae4283396a245c3364160",
+    "format" : "model",
+    "displayName" : "mix_tool.usdz"
+  },
+  {
+    "libraryIdentifier" : "508ab423f5cdb59043803af1b4da6af0",
+    "format" : "model",
+    "displayName" : "tinker.usdz"
+  },
+  {
+    "libraryIdentifier" : "209c9b10e6c6cca309b77f03575a4c01",
+    "format" : "audio",
+    "displayName" : "mixkit-liquid-poured-in-a-jar-with-ice-125.wav"
+  },
+  {
+    "libraryIdentifier" : "d1cb4e388500412c50033a6e460f31e9",
+    "format" : "audio",
+    "displayName" : "success-1-6297.mp3"
+  }
+]
