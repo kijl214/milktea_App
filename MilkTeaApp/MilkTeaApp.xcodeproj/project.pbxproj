@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5193CBAE296E957C000EC074 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5193CBAD296E957C000EC074 /* LoginView.swift */; };
+		5193CBB0296E990E000EC074 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5193CBAF296E990E000EC074 /* LoginModel.swift */; };
+		51D73C97296E71A800B83BA6 /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C96296E71A800B83BA6 /* MainButtonView.swift */; };
+		51D73C9A296E739D00B83BA6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C99296E739D00B83BA6 /* MapView.swift */; };
+		AB42BA4A296BCC6900C2E5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA49296BCC6900C2E5CD /* AppDelegate.swift */; };
+		AB42BA4C296BCC6900C2E5CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA4B296BCC6900C2E5CD /* ContentView.swift */; };
+		AB42BA50296BCC6A00C2E5CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB42BA4F296BCC6A00C2E5CD /* Assets.xcassets */; };
+		AB42BA53296BCC6A00C2E5CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB42BA52296BCC6A00C2E5CD /* Preview Assets.xcassets */; };
+		AB42BA5E296BCC6A00C2E5CD /* MilkTeaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA5D296BCC6A00C2E5CD /* MilkTeaAppTests.swift */; };
+		AB42BA69296BCC6A00C2E5CD /* MilkTeaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA68296BCC6A00C2E5CD /* MilkTeaAppUITests.swift */; };
+		AB42BA77296BCC9700C2E5CD /* Milktea.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA76296BCC9700C2E5CD /* Milktea.rcproject */; };
+		AB42BA78296BCC9700C2E5CD /* Milktea.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA76296BCC9700C2E5CD /* Milktea.rcproject */; };
+		AB42BA79296BCC9700C2E5CD /* Milktea.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA76296BCC9700C2E5CD /* Milktea.rcproject */; };
+		AB42BA7F296BCD1B00C2E5CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA4B296BCC6900C2E5CD /* ContentView.swift */; };
+		AB42BA80296BCD1B00C2E5CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA4B296BCC6900C2E5CD /* ContentView.swift */; };
+		ABBEC87A296BD22B002FB896 /* SignUpTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC879296BD22B002FB896 /* SignUpTitleView.swift */; };
+		ABBEC87B296BD22B002FB896 /* SignUpTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC879296BD22B002FB896 /* SignUpTitleView.swift */; };
+		ABBEC87C296BD22B002FB896 /* SignUpTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC879296BD22B002FB896 /* SignUpTitleView.swift */; };
+		ABBEC8B7296BD448002FB896 /* MilkTeaARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC8B6296BD448002FB896 /* MilkTeaARView.swift */; };
+		ABBEC8BD296BD655002FB896 /* SignUpPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC8BC296BD655002FB896 /* SignUpPageView.swift */; };
+		ABBEC8BF296BD6E6002FB896 /* SignUpItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC8BE296BD6E6002FB896 /* SignUpItemView.swift */; };
+		ABBEC8C1296BDA83002FB896 /* SignUpItemButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC8C0296BDA83002FB896 /* SignUpItemButtonView.swift */; };
+		ABBEC8C3296BE359002FB896 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABBEC8C2296BE359002FB896 /* GoogleService-Info.plist */; };
+		ABBEC8C6296BE45F002FB896 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = ABBEC8C5296BE45F002FB896 /* FirebaseAuth */; };
+		ABBEC8C9296BE4C7002FB896 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = ABBEC8C8296BE4C7002FB896 /* GoogleSignIn */; };
+		ABBEC8CB296BE4C7002FB896 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ABBEC8CA296BE4C7002FB896 /* GoogleSignInSwift */; };
+		ABBEC8DE296BF18C002FB896 /* GoogleSignInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC8DD296BF18C002FB896 /* GoogleSignInApp.swift */; };
+		ABBEC8DF296BF18C002FB896 /* GoogleSignInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC8DD296BF18C002FB896 /* GoogleSignInApp.swift */; };
+		ABBEC8E0296BF18C002FB896 /* GoogleSignInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC8DD296BF18C002FB896 /* GoogleSignInApp.swift */; };
+		ABBEC8E2296BF2D4002FB896 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC8E1296BF2D4002FB896 /* SignUpViewModel.swift */; };
+		ABBEC8E6296BF3D2002FB896 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC8E5296BF3D2002FB896 /* Application.swift */; };
+		ABBEC8EA296C0FA8002FB896 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC8E9296C0FA8002FB896 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB42BA5A296BCC6A00C2E5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB42BA3E296BCC6900C2E5CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB42BA45296BCC6900C2E5CD;
+			remoteInfo = MilkTeaApp;
+		};
+		AB42BA65296BCC6A00C2E5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB42BA3E296BCC6900C2E5CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB42BA45296BCC6900C2E5CD;
+			remoteInfo = MilkTeaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5193CBAD296E957C000EC074 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5193CBAF296E990E000EC074 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		51D73C96296E71A800B83BA6 /* MainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
+		51D73C99296E739D00B83BA6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		AB42BA46296BCC6900C2E5CD /* MilkTeaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilkTeaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB42BA49296BCC6900C2E5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB42BA4B296BCC6900C2E5CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB42BA4F296BCC6A00C2E5CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB42BA52296BCC6A00C2E5CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB42BA54296BCC6A00C2E5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB42BA59296BCC6A00C2E5CD /* MilkTeaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkTeaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB42BA5D296BCC6A00C2E5CD /* MilkTeaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkTeaAppTests.swift; sourceTree = "<group>"; };
+		AB42BA5F296BCC6A00C2E5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB42BA64296BCC6A00C2E5CD /* MilkTeaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkTeaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB42BA68296BCC6A00C2E5CD /* MilkTeaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkTeaAppUITests.swift; sourceTree = "<group>"; };
+		AB42BA6A296BCC6A00C2E5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB42BA76296BCC9700C2E5CD /* Milktea.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Milktea.rcproject; sourceTree = "<group>"; };
+		ABBEC879296BD22B002FB896 /* SignUpTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTitleView.swift; sourceTree = "<group>"; };
+		ABBEC8B6296BD448002FB896 /* MilkTeaARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkTeaARView.swift; sourceTree = "<group>"; };
+		ABBEC8BC296BD655002FB896 /* SignUpPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPageView.swift; sourceTree = "<group>"; };
+		ABBEC8BE296BD6E6002FB896 /* SignUpItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpItemView.swift; sourceTree = "<group>"; };
+		ABBEC8C0296BDA83002FB896 /* SignUpItemButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpItemButtonView.swift; sourceTree = "<group>"; };
+		ABBEC8C2296BE359002FB896 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ABBEC8DD296BF18C002FB896 /* GoogleSignInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInApp.swift; sourceTree = "<group>"; };
+		ABBEC8E1296BF2D4002FB896 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		ABBEC8E5296BF3D2002FB896 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		ABBEC8E9296C0FA8002FB896 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB42BA43296BCC6900C2E5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBEC8CB296BE4C7002FB896 /* GoogleSignInSwift in Frameworks */,
+				ABBEC8C6296BE45F002FB896 /* FirebaseAuth in Frameworks */,
+				ABBEC8C9296BE4C7002FB896 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB42BA56296BCC6A00C2E5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB42BA61296BCC6A00C2E5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5193CBAA296E93C1000EC074 /* SignInView */ = {
+			isa = PBXGroup;
+			children = (
+				5193CBAD296E957C000EC074 /* LoginView.swift */,
+			);
+			path = SignInView;
+			sourceTree = "<group>";
+		};
+		5193CBB1296E991A000EC074 /* LoginModel */ = {
+			isa = PBXGroup;
+			children = (
+				5193CBAF296E990E000EC074 /* LoginModel.swift */,
+			);
+			path = LoginModel;
+			sourceTree = "<group>";
+		};
+		51D73C98296E737500B83BA6 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				51D73C99296E739D00B83BA6 /* MapView.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		51D73C9B296E785300B83BA6 /* SignUpModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEC8E5296BF3D2002FB896 /* Application.swift */,
+				ABBEC8E1296BF2D4002FB896 /* SignUpViewModel.swift */,
+			);
+			path = SignUpModel;
+			sourceTree = "<group>";
+		};
+		AB42BA3D296BCC6900C2E5CD = {
+			isa = PBXGroup;
+			children = (
+				AB42BA48296BCC6900C2E5CD /* MilkTeaApp */,
+				AB42BA5C296BCC6A00C2E5CD /* MilkTeaAppTests */,
+				AB42BA67296BCC6A00C2E5CD /* MilkTeaAppUITests */,
+				AB42BA47296BCC6900C2E5CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB42BA47296BCC6900C2E5CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB42BA46296BCC6900C2E5CD /* MilkTeaApp.app */,
+				AB42BA59296BCC6A00C2E5CD /* MilkTeaAppTests.xctest */,
+				AB42BA64296BCC6A00C2E5CD /* MilkTeaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB42BA48296BCC6900C2E5CD /* MilkTeaApp */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEC8C2296BE359002FB896 /* GoogleService-Info.plist */,
+				AB42BA76296BCC9700C2E5CD /* Milktea.rcproject */,
+				ABBEC8D0296BE541002FB896 /* Model */,
+				AB42BA7A296BCCF000C2E5CD /* View */,
+				AB42BA4F296BCC6A00C2E5CD /* Assets.xcassets */,
+				AB42BA54296BCC6A00C2E5CD /* Info.plist */,
+				AB42BA51296BCC6A00C2E5CD /* Preview Content */,
+			);
+			path = MilkTeaApp;
+			sourceTree = "<group>";
+		};
+		AB42BA51296BCC6A00C2E5CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB42BA52296BCC6A00C2E5CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB42BA5C296BCC6A00C2E5CD /* MilkTeaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB42BA5D296BCC6A00C2E5CD /* MilkTeaAppTests.swift */,
+				AB42BA5F296BCC6A00C2E5CD /* Info.plist */,
+			);
+			path = MilkTeaAppTests;
+			sourceTree = "<group>";
+		};
+		AB42BA67296BCC6A00C2E5CD /* MilkTeaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB42BA68296BCC6A00C2E5CD /* MilkTeaAppUITests.swift */,
+				AB42BA6A296BCC6A00C2E5CD /* Info.plist */,
+			);
+			path = MilkTeaAppUITests;
+			sourceTree = "<group>";
+		};
+		AB42BA7A296BCCF000C2E5CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5193CBAA296E93C1000EC074 /* SignInView */,
+				ABBEC878296BD215002FB896 /* SignupView */,
+				ABBEC8EB296C0FB4002FB896 /* MainView */,
+				AB42BA4B296BCC6900C2E5CD /* ContentView.swift */,
+				51D73C98296E737500B83BA6 /* MapView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABBEC878296BD215002FB896 /* SignupView */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEC879296BD22B002FB896 /* SignUpTitleView.swift */,
+				ABBEC8C0296BDA83002FB896 /* SignUpItemButtonView.swift */,
+				ABBEC8BE296BD6E6002FB896 /* SignUpItemView.swift */,
+				ABBEC8DD296BF18C002FB896 /* GoogleSignInApp.swift */,
+				ABBEC8BC296BD655002FB896 /* SignUpPageView.swift */,
+			);
+			path = SignupView;
+			sourceTree = "<group>";
+		};
+		ABBEC8D0296BE541002FB896 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5193CBB1296E991A000EC074 /* LoginModel */,
+				51D73C9B296E785300B83BA6 /* SignUpModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABBEC8EB296C0FB4002FB896 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				AB42BA49296BCC6900C2E5CD /* AppDelegate.swift */,
+				ABBEC8B6296BD448002FB896 /* MilkTeaARView.swift */,
+				51D73C96296E71A800B83BA6 /* MainButtonView.swift */,
+				ABBEC8E9296C0FA8002FB896 /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB42BA45296BCC6900C2E5CD /* MilkTeaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB42BA6D296BCC6A00C2E5CD /* Build configuration list for PBXNativeTarget "MilkTeaApp" */;
+			buildPhases = (
+				AB42BA42296BCC6900C2E5CD /* Sources */,
+				AB42BA43296BCC6900C2E5CD /* Frameworks */,
+				AB42BA44296BCC6900C2E5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MilkTeaApp;
+			packageProductDependencies = (
+				ABBEC8C5296BE45F002FB896 /* FirebaseAuth */,
+				ABBEC8C8296BE4C7002FB896 /* GoogleSignIn */,
+				ABBEC8CA296BE4C7002FB896 /* GoogleSignInSwift */,
+			);
+			productName = MilkTeaApp;
+			productReference = AB42BA46296BCC6900C2E5CD /* MilkTeaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB42BA58296BCC6A00C2E5CD /* MilkTeaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB42BA70296BCC6A00C2E5CD /* Build configuration list for PBXNativeTarget "MilkTeaAppTests" */;
+			buildPhases = (
+				AB42BA55296BCC6A00C2E5CD /* Sources */,
+				AB42BA56296BCC6A00C2E5CD /* Frameworks */,
+				AB42BA57296BCC6A00C2E5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB42BA5B296BCC6A00C2E5CD /* PBXTargetDependency */,
+			);
+			name = MilkTeaAppTests;
+			productName = MilkTeaAppTests;
+			productReference = AB42BA59296BCC6A00C2E5CD /* MilkTeaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB42BA63296BCC6A00C2E5CD /* MilkTeaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB42BA73296BCC6A00C2E5CD /* Build configuration list for PBXNativeTarget "MilkTeaAppUITests" */;
+			buildPhases = (
+				AB42BA60296BCC6A00C2E5CD /* Sources */,
+				AB42BA61296BCC6A00C2E5CD /* Frameworks */,
+				AB42BA62296BCC6A00C2E5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB42BA66296BCC6A00C2E5CD /* PBXTargetDependency */,
+			);
+			name = MilkTeaAppUITests;
+			productName = MilkTeaAppUITests;
+			productReference = AB42BA64296BCC6A00C2E5CD /* MilkTeaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB42BA3E296BCC6900C2E5CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AB42BA45296BCC6900C2E5CD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					AB42BA58296BCC6A00C2E5CD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AB42BA45296BCC6900C2E5CD;
+					};
+					AB42BA63296BCC6A00C2E5CD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = AB42BA45296BCC6900C2E5CD;
+					};
+				};
+			};
+			buildConfigurationList = AB42BA41296BCC6900C2E5CD /* Build configuration list for PBXProject "MilkTeaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB42BA3D296BCC6900C2E5CD;
+			packageReferences = (
+				ABBEC8C4296BE45F002FB896 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				ABBEC8C7296BE4C7002FB896 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = AB42BA47296BCC6900C2E5CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB42BA45296BCC6900C2E5CD /* MilkTeaApp */,
+				AB42BA58296BCC6A00C2E5CD /* MilkTeaAppTests */,
+				AB42BA63296BCC6A00C2E5CD /* MilkTeaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB42BA44296BCC6900C2E5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB42BA53296BCC6A00C2E5CD /* Preview Assets.xcassets in Resources */,
+				AB42BA50296BCC6A00C2E5CD /* Assets.xcassets in Resources */,
+				ABBEC8C3296BE359002FB896 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB42BA57296BCC6A00C2E5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB42BA62296BCC6A00C2E5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB42BA42296BCC6900C2E5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABBEC8E6296BF3D2002FB896 /* Application.swift in Sources */,
+				ABBEC8EA296C0FA8002FB896 /* MainView.swift in Sources */,
+				ABBEC8DE296BF18C002FB896 /* GoogleSignInApp.swift in Sources */,
+				51D73C97296E71A800B83BA6 /* MainButtonView.swift in Sources */,
+				ABBEC8E2296BF2D4002FB896 /* SignUpViewModel.swift in Sources */,
+				ABBEC8C1296BDA83002FB896 /* SignUpItemButtonView.swift in Sources */,
+				ABBEC8BD296BD655002FB896 /* SignUpPageView.swift in Sources */,
+				5193CBB0296E990E000EC074 /* LoginModel.swift in Sources */,
+				51D73C9A296E739D00B83BA6 /* MapView.swift in Sources */,
+				AB42BA4C296BCC6900C2E5CD /* ContentView.swift in Sources */,
+				5193CBAE296E957C000EC074 /* LoginView.swift in Sources */,
+				ABBEC8B7296BD448002FB896 /* MilkTeaARView.swift in Sources */,
+				ABBEC87A296BD22B002FB896 /* SignUpTitleView.swift in Sources */,
+				AB42BA77296BCC9700C2E5CD /* Milktea.rcproject in Sources */,
+				AB42BA4A296BCC6900C2E5CD /* AppDelegate.swift in Sources */,
+				ABBEC8BF296BD6E6002FB896 /* SignUpItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB42BA55296BCC6A00C2E5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB42BA78296BCC9700C2E5CD /* Milktea.rcproject in Sources */,
+				AB42BA5E296BCC6A00C2E5CD /* MilkTeaAppTests.swift in Sources */,
+				AB42BA7F296BCD1B00C2E5CD /* ContentView.swift in Sources */,
+				ABBEC87B296BD22B002FB896 /* SignUpTitleView.swift in Sources */,
+				ABBEC8DF296BF18C002FB896 /* GoogleSignInApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB42BA60296BCC6A00C2E5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB42BA79296BCC9700C2E5CD /* Milktea.rcproject in Sources */,
+				AB42BA69296BCC6A00C2E5CD /* MilkTeaAppUITests.swift in Sources */,
+				AB42BA80296BCD1B00C2E5CD /* ContentView.swift in Sources */,
+				ABBEC87C296BD22B002FB896 /* SignUpTitleView.swift in Sources */,
+				ABBEC8E0296BF18C002FB896 /* GoogleSignInApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB42BA5B296BCC6A00C2E5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB42BA45296BCC6900C2E5CD /* MilkTeaApp */;
+			targetProxy = AB42BA5A296BCC6A00C2E5CD /* PBXContainerItemProxy */;
+		};
+		AB42BA66296BCC6A00C2E5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB42BA45296BCC6900C2E5CD /* MilkTeaApp */;
+			targetProxy = AB42BA65296BCC6A00C2E5CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB42BA6B296BCC6A00C2E5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB42BA6C296BCC6A00C2E5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB42BA6E296BCC6A00C2E5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MilkTeaApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MilkTeaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ive.MilkTeaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB42BA6F296BCC6A00C2E5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MilkTeaApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MilkTeaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ive.MilkTeaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB42BA71296BCC6A00C2E5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MilkTeaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ive.MilkTeaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilkTeaApp.app/MilkTeaApp";
+			};
+			name = Debug;
+		};
+		AB42BA72296BCC6A00C2E5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MilkTeaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ive.MilkTeaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MilkTeaApp.app/MilkTeaApp";
+			};
+			name = Release;
+		};
+		AB42BA74296BCC6A00C2E5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MilkTeaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ive.MilkTeaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MilkTeaApp;
+			};
+			name = Debug;
+		};
+		AB42BA75296BCC6A00C2E5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MilkTeaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ive.MilkTeaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MilkTeaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB42BA41296BCC6900C2E5CD /* Build configuration list for PBXProject "MilkTeaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB42BA6B296BCC6A00C2E5CD /* Debug */,
+				AB42BA6C296BCC6A00C2E5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB42BA6D296BCC6A00C2E5CD /* Build configuration list for PBXNativeTarget "MilkTeaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB42BA6E296BCC6A00C2E5CD /* Debug */,
+				AB42BA6F296BCC6A00C2E5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB42BA70296BCC6A00C2E5CD /* Build configuration list for PBXNativeTarget "MilkTeaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB42BA71296BCC6A00C2E5CD /* Debug */,
+				AB42BA72296BCC6A00C2E5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB42BA73296BCC6A00C2E5CD /* Build configuration list for PBXNativeTarget "MilkTeaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB42BA74296BCC6A00C2E5CD /* Debug */,
+				AB42BA75296BCC6A00C2E5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ABBEC8C4296BE45F002FB896 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.3.0;
+			};
+		};
+		ABBEC8C7296BE4C7002FB896 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ABBEC8C5296BE45F002FB896 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABBEC8C4296BE45F002FB896 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		ABBEC8C8296BE4C7002FB896 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABBEC8C7296BE4C7002FB896 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		ABBEC8CA296BE4C7002FB896 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABBEC8C7296BE4C7002FB896 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AB42BA3E296BCC6900C2E5CD /* Project object */;
+}
