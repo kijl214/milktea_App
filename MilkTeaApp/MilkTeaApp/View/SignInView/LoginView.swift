@@ -18,6 +18,9 @@ struct LoginView: View {
         
         NavigationView{
             ScrollView {
+        Spacer()
+        Spacer()
+        Spacer()
         VStack(alignment: .center, spacing: 0) {
 
         //Sign in
@@ -78,6 +81,7 @@ struct LoginView: View {
         }//VStack
         .animation(.easeOut)
         }//ScrollView
+        .ignoresSafeArea(.all,edges: .all)
         }//NavigationView
     }
     

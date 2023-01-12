@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct MainView: View {
+    @AppStorage("stored_user") var  userEmail = "123"
     //MARK - body
     var body: some View {
         NavigationView{
         VStack{
+            Text("Welcome! \(userEmail).")
+            
         MainButtonView()
-        MilkTeaARView()
-            .ignoresSafeArea(.all,edges: .all)
+
             }//VStack
             
         }//NavigationView
