@@ -27,7 +27,9 @@ struct MainButtonView: View {
                 })
                 .scaledToFit()
                 .colorMultiply(.blue)
+                .navigationBarTitle("", displayMode: .inline)
                 .navigationTitle("BACK")
+                .navigationBarHidden(true)
 
             
         }//HStack

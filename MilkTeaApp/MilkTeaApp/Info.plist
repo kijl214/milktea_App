@@ -31,12 +31,14 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string></string>
 	<key>NSFaceIDUsageDescription</key>
-	<string>Allow FaceID to log into the app</string>
+	<string>We need to use it to quick login.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIRequiredDeviceCapabilities</key>

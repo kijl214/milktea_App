@@ -12,7 +12,7 @@ import GoogleSignIn
 class SignUpViewModel: ObservableObject {
     @Published var isLogin: Bool = false
     @AppStorage("log_status") var log_status = false
-    @AppStorage("stored_user") var  userEmail = ""
+    @AppStorage("stored_user") var  userEmail = "123"
     func signUpGoogle() {
         
         guard let clientId = FirebaseApp.app()?.options.clientID else {return}

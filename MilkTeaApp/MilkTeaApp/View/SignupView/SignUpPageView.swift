@@ -40,7 +40,7 @@ struct SignUpPageView: View {
                 .colorMultiply(.blue)
                 .navigationTitle("Sign In")
                 .navigationBarHidden(true)
-                
+                .navigationBarTitle("", displayMode: .inline)
 
             
             

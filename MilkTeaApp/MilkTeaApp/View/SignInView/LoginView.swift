@@ -41,6 +41,8 @@ struct LoginView: View {
         .cornerRadius(12)
         .padding(.horizontal)
         
+            
+            
         //password
         HStack{
             Image(systemName: "lock")
@@ -55,16 +57,8 @@ struct LoginView: View {
         .padding(.horizontal)
         .padding(.top)
         
-        HStack(spacing:10){
-        //Login button
-            Button(action: authenticateUser, label: {
-                Text("Login")
-            })
-            .padding()
-            .background(Color.black)
-            .cornerRadius(12)
-            .foregroundColor(.white)
-            .padding(.top)
+
+            
             
             
             if getFaceIdTouchID(){
@@ -72,11 +66,11 @@ struct LoginView: View {
                     Image(systemName: LAContext().biometryType == . faceID ? "faceid" : "touchid")
                         .font(.title)
                         .foregroundColor(.black)
-                        .background(Color.green.opacity(0.15))
+                        .background(Color.red.opacity(0.3))
                         .padding()
                         .clipShape(Circle())
                 })
-            }
+
             
                 
           }//HStack
@@ -85,36 +79,35 @@ struct LoginView: View {
         .animation(.easeOut)
         }//ScrollView
         }//NavigationView
-        
     }
     
     
+    
     func getFaceIdTouchID()->Bool {
+        
         let scanner = LAContext()
         if username == userEmail && scanner.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: .none){
             return true
-            
         }
+        print(scanner.biometryType)
         return false
     }//func getFaceIdTouchID
     
     func authenticateUser(){
         let scanncer = LAContext()
-
-
-        scanncer.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "To Unlock \(username)") { (status, err) in
+        scanncer.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "Welcome \(username)") { (status, err) in
             if err != nil{
                 print(err!.localizedDescription)
                 return
             }
-            withAnimation(.easeOut) {
+            withAnimation(.easeInOut){
                 self.log_status = true
             }
         }
     
     }
-    
 }
+
 
 
 
@@ -124,3 +117,4 @@ struct LoginView_Previews: PreviewProvider {
         LoginView()
     }
 }
+

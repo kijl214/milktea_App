@@ -14,11 +14,11 @@ struct MainView: View {
         VStack{
         MainButtonView()
         MilkTeaARView()
-            .ignoresSafeArea()
-            .aspectRatio(contentMode: .fill)
+            .ignoresSafeArea(.all,edges: .all)
             }//VStack
             
         }//NavigationView
+        .navigationBarTitle("", displayMode: .inline)
         
     }
 }

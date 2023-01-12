@@ -10,7 +10,7 @@ import SwiftUI
 import LocalAuthentication
 class LoginModel: ObservableObject {
     let username : String = ""
-    let userEmail : String = ""
+    let userEmail : String = "123"
     func getFaceIdTouchID(username:String, userEmail:String)->Bool {
         let scanner = LAContext()
         if username == userEmail && scanner.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: .none){
