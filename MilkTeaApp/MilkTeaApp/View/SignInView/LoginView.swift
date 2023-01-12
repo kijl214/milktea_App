@@ -86,7 +86,7 @@ struct LoginView: View {
     func getFaceIdTouchID()->Bool {
         
         let scanner = LAContext()
-        if username == userEmail && scanner.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: .none){
+        if username == self.userEmail && scanner.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: .none){
             return true
         }
         print(scanner.biometryType)
