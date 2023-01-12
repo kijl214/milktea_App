@@ -16,13 +16,14 @@
 		51B08549296FDD9D001C4093 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B08548296FDD9D001C4093 /* DataModel.swift */; };
 		51B0854C296FE170001C4093 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0854B296FE170001C4093 /* Chat.swift */; };
 		51B0854E29700196001C4093 /* Milktea.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 51B0854D29700196001C4093 /* Milktea.rcproject */; };
+		51B0855929700C25001C4093 /* MilkTeaAppUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0855829700C25001C4093 /* MilkTeaAppUITest.swift */; };
+		51B0855A29700C25001C4093 /* MilkTeaAppUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0855829700C25001C4093 /* MilkTeaAppUITest.swift */; };
 		51D73C97296E71A800B83BA6 /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C96296E71A800B83BA6 /* MainButtonView.swift */; };
 		51D73C9A296E739D00B83BA6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C99296E739D00B83BA6 /* MapView.swift */; };
 		AB42BA4A296BCC6900C2E5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA49296BCC6900C2E5CD /* AppDelegate.swift */; };
 		AB42BA4C296BCC6900C2E5CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA4B296BCC6900C2E5CD /* ContentView.swift */; };
 		AB42BA50296BCC6A00C2E5CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB42BA4F296BCC6A00C2E5CD /* Assets.xcassets */; };
 		AB42BA53296BCC6A00C2E5CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB42BA52296BCC6A00C2E5CD /* Preview Assets.xcassets */; };
-		AB42BA5E296BCC6A00C2E5CD /* MilkTeaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA5D296BCC6A00C2E5CD /* MilkTeaAppTests.swift */; };
 		AB42BA7F296BCD1B00C2E5CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA4B296BCC6900C2E5CD /* ContentView.swift */; };
 		AB42BA80296BCD1B00C2E5CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA4B296BCC6900C2E5CD /* ContentView.swift */; };
 		ABBEC87A296BD22B002FB896 /* SignUpTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEC879296BD22B002FB896 /* SignUpTitleView.swift */; };
@@ -69,6 +70,7 @@
 		51B08548296FDD9D001C4093 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		51B0854B296FE170001C4093 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		51B0854D29700196001C4093 /* Milktea.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Milktea.rcproject; path = ../../../Milktea.rcproject; sourceTree = "<group>"; };
+		51B0855829700C25001C4093 /* MilkTeaAppUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkTeaAppUITest.swift; sourceTree = "<group>"; };
 		51D73C96296E71A800B83BA6 /* MainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
 		51D73C99296E739D00B83BA6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		AB42BA46296BCC6900C2E5CD /* MilkTeaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilkTeaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,7 +80,6 @@
 		AB42BA52296BCC6A00C2E5CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB42BA54296BCC6A00C2E5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB42BA59296BCC6A00C2E5CD /* MilkTeaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkTeaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB42BA5D296BCC6A00C2E5CD /* MilkTeaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkTeaAppTests.swift; sourceTree = "<group>"; };
 		AB42BA5F296BCC6A00C2E5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB42BA64296BCC6A00C2E5CD /* MilkTeaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MilkTeaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBEC879296BD22B002FB896 /* SignUpTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTitleView.swift; sourceTree = "<group>"; };
@@ -227,8 +228,8 @@
 		AB42BA5C296BCC6A00C2E5CD /* MilkTeaAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				AB42BA5D296BCC6A00C2E5CD /* MilkTeaAppTests.swift */,
 				AB42BA5F296BCC6A00C2E5CD /* Info.plist */,
+				51B0855829700C25001C4093 /* MilkTeaAppUITest.swift */,
 			);
 			path = MilkTeaAppTests;
 			sourceTree = "<group>";
@@ -446,7 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB42BA5E296BCC6A00C2E5CD /* MilkTeaAppTests.swift in Sources */,
+				51B0855929700C25001C4093 /* MilkTeaAppUITest.swift in Sources */,
 				AB42BA7F296BCD1B00C2E5CD /* ContentView.swift in Sources */,
 				ABBEC87B296BD22B002FB896 /* SignUpTitleView.swift in Sources */,
 				ABBEC8DF296BF18C002FB896 /* GoogleSignInApp.swift in Sources */,
@@ -460,6 +461,7 @@
 				AB42BA80296BCD1B00C2E5CD /* ContentView.swift in Sources */,
 				ABBEC87C296BD22B002FB896 /* SignUpTitleView.swift in Sources */,
 				ABBEC8E0296BF18C002FB896 /* GoogleSignInApp.swift in Sources */,
+				51B0855A29700C25001C4093 /* MilkTeaAppUITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
