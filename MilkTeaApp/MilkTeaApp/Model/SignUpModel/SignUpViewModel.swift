@@ -8,6 +8,7 @@
 import SwiftUI
 import Firebase
 import GoogleSignIn
+import FirebaseFirestore
 
 class SignUpViewModel: ObservableObject {
     @Published var isLogin: Bool = false
@@ -53,6 +54,13 @@ class SignUpViewModel: ObservableObject {
 
         
     }
+
+    
+    
+    
+    
+    
+    
     
     
 }
