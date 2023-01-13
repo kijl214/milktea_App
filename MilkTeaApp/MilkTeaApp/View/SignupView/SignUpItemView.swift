@@ -21,7 +21,7 @@ struct SignUpItemView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 40, height: 40, alignment: .center)
-            Text("Sign In with \(name)")
+            Text("Sign Up with \(name)")
                 .foregroundColor(.gray)
                 .bold()
             }//HStack

@@ -18,10 +18,7 @@ struct SignUpItemButtonView: View {
             Button(action: {signupVM.signUpGoogle()}, label: {
                 SignUpItemView(backgroundColor: "white", logo: "google", name: "Google")
             })
-            //Apple
-            Button(action: {}, label: {
-                SignUpItemView(backgroundColor: "white", logo: "apple", name: "Apple")
-            })
+
         }//VStack
     }
 }
