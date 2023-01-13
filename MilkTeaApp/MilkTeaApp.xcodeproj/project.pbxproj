@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5179E14D2970FFF900C68D30 /* Milktea.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 5179E14C2970FFF900C68D30 /* Milktea.rcproject */; };
 		5193CBAE296E957C000EC074 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5193CBAD296E957C000EC074 /* LoginView.swift */; };
-		5193CBB0296E990E000EC074 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5193CBAF296E990E000EC074 /* LoginModel.swift */; };
 		51B08540296FD32C001C4093 /* DiscussionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0853F296FD32C001C4093 /* DiscussionView.swift */; };
 		51B08542296FD8B2001C4093 /* SendButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B08541296FD8B2001C4093 /* SendButtonView.swift */; };
 		51B08545296FDBF4001C4093 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 51B08544296FDBF4001C4093 /* FirebaseFirestore */; };
@@ -65,7 +64,6 @@
 /* Begin PBXFileReference section */
 		5179E14C2970FFF900C68D30 /* Milktea.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Milktea.rcproject; path = ../../../Desktop/Milktea.rcproject; sourceTree = "<group>"; };
 		5193CBAD296E957C000EC074 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		5193CBAF296E990E000EC074 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		51B0853F296FD32C001C4093 /* DiscussionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussionView.swift; sourceTree = "<group>"; };
 		51B08541296FD8B2001C4093 /* SendButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButtonView.swift; sourceTree = "<group>"; };
 		51B08548296FDD9D001C4093 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
@@ -130,14 +128,6 @@
 				5193CBAD296E957C000EC074 /* LoginView.swift */,
 			);
 			path = SignInView;
-			sourceTree = "<group>";
-		};
-		5193CBB1296E991A000EC074 /* LoginModel */ = {
-			isa = PBXGroup;
-			children = (
-				5193CBAF296E990E000EC074 /* LoginModel.swift */,
-			);
-			path = LoginModel;
 			sourceTree = "<group>";
 		};
 		51B0853E296FD302001C4093 /* DiscussionView */ = {
@@ -261,7 +251,6 @@
 		ABBEC8D0296BE541002FB896 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5193CBB1296E991A000EC074 /* LoginModel */,
 				51D73C9B296E785300B83BA6 /* SignUpModel */,
 				51B0854A296FDDA3001C4093 /* DataModel */,
 			);
@@ -430,7 +419,6 @@
 				ABBEC8C1296BDA83002FB896 /* SignUpItemButtonView.swift in Sources */,
 				ABBEC8BD296BD655002FB896 /* SignUpPageView.swift in Sources */,
 				51B08542296FD8B2001C4093 /* SendButtonView.swift in Sources */,
-				5193CBB0296E990E000EC074 /* LoginModel.swift in Sources */,
 				51D73C9A296E739D00B83BA6 /* MapView.swift in Sources */,
 				AB42BA4C296BCC6900C2E5CD /* ContentView.swift in Sources */,
 				5193CBAE296E957C000EC074 /* LoginView.swift in Sources */,
