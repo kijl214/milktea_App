@@ -12,7 +12,7 @@ import FirebaseFirestore
 class  DataModel: ObservableObject {
     @Published var chat : [Chat] = []
     @AppStorage("stored_user") var  userEmail = "123"
-    var sendChatTimes:Int = 0
+    @AppStorage("id") var sendChatTimes:Int = 0
     
     init() {
         Data()
@@ -31,7 +31,7 @@ class  DataModel: ObservableObject {
                 for document in querySnapshot.documents{
                     let data = document.data()
                     
-                    let id = data["id"] as? String ?? ""
+                    let id = data["id"] as? Int ?? 0
                     let user = data["user"] as? String ?? ""
                     let chat = data["chat"] as? String ?? ""
                     

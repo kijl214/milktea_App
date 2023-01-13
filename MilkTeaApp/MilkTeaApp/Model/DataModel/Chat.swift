@@ -8,7 +8,7 @@
 import Foundation
 
 struct Chat: Identifiable {
-    var id : String
+    var id : Int
     var user: String
     var chat:String
 }

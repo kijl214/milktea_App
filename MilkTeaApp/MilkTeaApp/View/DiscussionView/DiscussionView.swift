@@ -13,7 +13,7 @@ struct DiscussionView: View {
     var body: some View {
         NavigationView{
             List(dataModel.chat, id: \.id){chat in
-                Text("\(chat.user):\(chat.chat)")
+                Text("\(chat.user):  \(chat.chat)")
             }.navigationTitle("Chat")
             .navigationBarItems(trailing: Button(action: {showPopup.toggle()}, label: {
                 Image(systemName: "plus")

@@ -17,19 +17,20 @@ struct LoginView: View {
     var body: some View {
         
         NavigationView{
-            ScrollView {
+
         
         VStack(alignment: .center, spacing: 0) {
 
         //Sign in
         SignUpTitleView(titlename: "Login")
-            .padding(.vertical, 100)
+            .padding(.top, 100)
             .frame(width: 300, alignment: .leading)
-            .font(.system(size: 45))
+            
 
-        //MilkteaPicture
+
+        //milk tea picture
         Image("milktea")
-
+            
         //user
         HStack{
             Image(systemName: "envelope")
@@ -44,25 +45,6 @@ struct LoginView: View {
         .cornerRadius(12)
         .padding(.horizontal)
         
-            
-            
-        //password
-        HStack{
-            Image(systemName: "lock")
-                .font(.title3)
-                .foregroundColor(.black)
-            SecureField("PassWord",text: $password)
-                .autocapitalization(.none)
-        }//HStack
-        .padding()
-        .background(Color.black.opacity(0.15))
-        .cornerRadius(12)
-        .padding(.horizontal)
-        .padding(.top)
-        
-
-            
-            
             
             if getFaceIdTouchID(){
                 Button(action: authenticateUser, label: {
@@ -81,8 +63,8 @@ struct LoginView: View {
         }
         .padding(.bottom, 100.0)//VStack
         .animation(.easeOut)
-        }//ScrollView
-        .ignoresSafeArea(.all,edges: .all)
+        //ScrollView
+            .ignoresSafeArea(.all,edges: .all)
         }//NavigationView
     }
     

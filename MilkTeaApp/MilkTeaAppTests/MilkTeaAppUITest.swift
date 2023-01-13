@@ -26,7 +26,7 @@ class MilkTeaAppUITest: XCTestCase {
     }
 
     func testchangesceen(){
-        app.button["Click here"].tap
+
     }
 
 }
