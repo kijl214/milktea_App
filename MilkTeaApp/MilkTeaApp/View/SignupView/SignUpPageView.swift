@@ -15,7 +15,7 @@ struct SignUpPageView: View {
         VStack(alignment: .center, spacing: 0) {
             //Title Name
             Text("HK-Style Milk Tea Simulator")
-                .font(.title2)
+                .font(.system(size: 40))
                 .foregroundColor(.blue)
             //Milk Tea Icon
             Image("milktea")

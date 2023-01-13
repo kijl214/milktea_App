@@ -18,15 +18,15 @@ struct LoginView: View {
         
         NavigationView{
             ScrollView {
-        Spacer()
-        Spacer()
-        Spacer()
+        
         VStack(alignment: .center, spacing: 0) {
 
         //Sign in
         SignUpTitleView(titlename: "Login")
-            .padding(.vertical)
+            .padding(.vertical, 100)
             .frame(width: 300, alignment: .leading)
+            .font(.system(size: 45))
+
         //MilkteaPicture
         Image("milktea")
 
@@ -78,7 +78,8 @@ struct LoginView: View {
                 
           }//HStack
             
-        }//VStack
+        }
+        .padding(.bottom, 100.0)//VStack
         .animation(.easeOut)
         }//ScrollView
         .ignoresSafeArea(.all,edges: .all)
