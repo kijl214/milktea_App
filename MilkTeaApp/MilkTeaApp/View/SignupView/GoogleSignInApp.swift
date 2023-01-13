@@ -13,6 +13,7 @@ import GoogleSignIn
 struct GoogleSignInApp: App{
     @UIApplicationDelegateAdaptor(AppDelegate3.self) var appDelegate3
     @UIApplicationDelegateAdaptor(AppDelegate2.self) var appDelegate2
+    @AppStorage("log_status") var log_status = false
     @StateObject var dataModel = DataModel()
 
     

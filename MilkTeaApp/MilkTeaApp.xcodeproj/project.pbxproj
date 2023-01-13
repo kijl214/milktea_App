@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5179E14D2970FFF900C68D30 /* Milktea.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 5179E14C2970FFF900C68D30 /* Milktea.rcproject */; };
 		5193CBAE296E957C000EC074 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5193CBAD296E957C000EC074 /* LoginView.swift */; };
 		5193CBB0296E990E000EC074 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5193CBAF296E990E000EC074 /* LoginModel.swift */; };
 		51B08540296FD32C001C4093 /* DiscussionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0853F296FD32C001C4093 /* DiscussionView.swift */; };
@@ -15,7 +16,6 @@
 		51B08547296FDCDB001C4093 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 51B08546296FDCDB001C4093 /* FirebaseFirestoreSwift */; };
 		51B08549296FDD9D001C4093 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B08548296FDD9D001C4093 /* DataModel.swift */; };
 		51B0854C296FE170001C4093 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0854B296FE170001C4093 /* Chat.swift */; };
-		51B0854E29700196001C4093 /* Milktea.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 51B0854D29700196001C4093 /* Milktea.rcproject */; };
 		51B0855929700C25001C4093 /* MilkTeaAppUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0855829700C25001C4093 /* MilkTeaAppUITest.swift */; };
 		51B0855A29700C25001C4093 /* MilkTeaAppUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0855829700C25001C4093 /* MilkTeaAppUITest.swift */; };
 		51D73C97296E71A800B83BA6 /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C96296E71A800B83BA6 /* MainButtonView.swift */; };
@@ -63,13 +63,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5179E14C2970FFF900C68D30 /* Milktea.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Milktea.rcproject; path = ../../../Desktop/Milktea.rcproject; sourceTree = "<group>"; };
 		5193CBAD296E957C000EC074 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5193CBAF296E990E000EC074 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		51B0853F296FD32C001C4093 /* DiscussionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussionView.swift; sourceTree = "<group>"; };
 		51B08541296FD8B2001C4093 /* SendButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButtonView.swift; sourceTree = "<group>"; };
 		51B08548296FDD9D001C4093 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		51B0854B296FE170001C4093 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
-		51B0854D29700196001C4093 /* Milktea.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Milktea.rcproject; path = ../../../Milktea.rcproject; sourceTree = "<group>"; };
 		51B0855829700C25001C4093 /* MilkTeaAppUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkTeaAppUITest.swift; sourceTree = "<group>"; };
 		51D73C96296E71A800B83BA6 /* MainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
 		51D73C99296E739D00B83BA6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -206,7 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				ABBEC8C2296BE359002FB896 /* GoogleService-Info.plist */,
-				51B0854D29700196001C4093 /* Milktea.rcproject */,
+				5179E14C2970FFF900C68D30 /* Milktea.rcproject */,
 				ABBEC8D0296BE541002FB896 /* Model */,
 				AB42BA7A296BCCF000C2E5CD /* View */,
 				AB42BA4B296BCC6900C2E5CD /* ContentView.swift */,
@@ -424,6 +424,7 @@
 				ABBEC8EA296C0FA8002FB896 /* MainView.swift in Sources */,
 				51B08540296FD32C001C4093 /* DiscussionView.swift in Sources */,
 				ABBEC8DE296BF18C002FB896 /* GoogleSignInApp.swift in Sources */,
+				5179E14D2970FFF900C68D30 /* Milktea.rcproject in Sources */,
 				51D73C97296E71A800B83BA6 /* MainButtonView.swift in Sources */,
 				ABBEC8E2296BF2D4002FB896 /* SignUpViewModel.swift in Sources */,
 				ABBEC8C1296BDA83002FB896 /* SignUpItemButtonView.swift in Sources */,
@@ -438,7 +439,6 @@
 				51B08549296FDD9D001C4093 /* DataModel.swift in Sources */,
 				ABBEC87A296BD22B002FB896 /* SignUpTitleView.swift in Sources */,
 				AB42BA4A296BCC6900C2E5CD /* AppDelegate.swift in Sources */,
-				51B0854E29700196001C4093 /* Milktea.rcproject in Sources */,
 				ABBEC8BF296BD6E6002FB896 /* SignUpItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

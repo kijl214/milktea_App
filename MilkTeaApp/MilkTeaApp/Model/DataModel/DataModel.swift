@@ -12,6 +12,8 @@ import FirebaseFirestore
 class  DataModel: ObservableObject {
     @Published var chat : [Chat] = []
     @AppStorage("stored_user") var  userEmail = "123"
+    var sendChatTimes:Int = 0
+    
     init() {
         Data()
     }
@@ -41,7 +43,8 @@ class  DataModel: ObservableObject {
     }//fun Data()
     
     func addChat(newChat:String) {
-        db.collection("chat").document(newChat).setData(["user":userEmail,"chat":newChat,"id":10]){error in
+        sendChatTimes = sendChatTimes + 1
+        db.collection("chat").document(newChat).setData(["user":userEmail,"chat":newChat,"id":sendChatTimes]){error in
             if let error = error{
                 print(error.localizedDescription)
             }
