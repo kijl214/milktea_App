@@ -11,19 +11,6 @@ struct MainButtonView: View {
     
     var body: some View {
         VStack(spacing:40){
-            //button to Map page
-        NavigationLink(
-            destination: MapView(),
-            label: {
-                Text("About Hong Kong Milk Tea")
-            })
-            .padding()
-            .foregroundColor(.black)
-            .navigationBarTitle("BACK", displayMode: .inline)
-            .navigationBarHidden(true)
-            .background(Color.blue.opacity(0.5))
-            .cornerRadius(10)
-            .shadow(color: .black.opacity(0.5), radius: 5, x: 0, y: 1)
             
         //button to Recommend HK-style Milk Tea
         NavigationLink(

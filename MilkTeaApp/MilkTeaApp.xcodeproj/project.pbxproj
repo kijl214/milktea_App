@@ -18,7 +18,6 @@
 		51B0855929700C25001C4093 /* MilkTeaAppUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0855829700C25001C4093 /* MilkTeaAppUITest.swift */; };
 		51B0855A29700C25001C4093 /* MilkTeaAppUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0855829700C25001C4093 /* MilkTeaAppUITest.swift */; };
 		51D73C97296E71A800B83BA6 /* MainButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C96296E71A800B83BA6 /* MainButtonView.swift */; };
-		51D73C9A296E739D00B83BA6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D73C99296E739D00B83BA6 /* MapView.swift */; };
 		AB42BA4A296BCC6900C2E5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA49296BCC6900C2E5CD /* AppDelegate.swift */; };
 		AB42BA4C296BCC6900C2E5CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB42BA4B296BCC6900C2E5CD /* ContentView.swift */; };
 		AB42BA50296BCC6A00C2E5CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB42BA4F296BCC6A00C2E5CD /* Assets.xcassets */; };
@@ -70,7 +69,6 @@
 		51B0854B296FE170001C4093 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		51B0855829700C25001C4093 /* MilkTeaAppUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilkTeaAppUITest.swift; sourceTree = "<group>"; };
 		51D73C96296E71A800B83BA6 /* MainButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonView.swift; sourceTree = "<group>"; };
-		51D73C99296E739D00B83BA6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		AB42BA46296BCC6900C2E5CD /* MilkTeaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MilkTeaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB42BA49296BCC6900C2E5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB42BA4B296BCC6900C2E5CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,14 +153,6 @@
 			path = DataModel;
 			sourceTree = "<group>";
 		};
-		51D73C98296E737500B83BA6 /* MapView */ = {
-			isa = PBXGroup;
-			children = (
-				51D73C99296E739D00B83BA6 /* MapView.swift */,
-			);
-			path = MapView;
-			sourceTree = "<group>";
-		};
 		51D73C9B296E785300B83BA6 /* SignUpModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,7 +221,6 @@
 				ABBEC878296BD215002FB896 /* SignupView */,
 				ABBEC8EB296C0FB4002FB896 /* MainView */,
 				51B0853E296FD302001C4093 /* DiscussionView */,
-				51D73C98296E737500B83BA6 /* MapView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -419,7 +408,6 @@
 				ABBEC8C1296BDA83002FB896 /* SignUpItemButtonView.swift in Sources */,
 				ABBEC8BD296BD655002FB896 /* SignUpPageView.swift in Sources */,
 				51B08542296FD8B2001C4093 /* SendButtonView.swift in Sources */,
-				51D73C9A296E739D00B83BA6 /* MapView.swift in Sources */,
 				AB42BA4C296BCC6900C2E5CD /* ContentView.swift in Sources */,
 				5193CBAE296E957C000EC074 /* LoginView.swift in Sources */,
 				51B0854C296FE170001C4093 /* Chat.swift in Sources */,
