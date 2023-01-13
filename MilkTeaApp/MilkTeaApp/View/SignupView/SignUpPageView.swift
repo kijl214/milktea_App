@@ -29,12 +29,15 @@ struct SignUpPageView: View {
                 
             //Sign up button
             SignUpItemButtonView()
-            Text("Have account?")
                 .padding()
+                .background(Color.gray.opacity(0.2))
+            Text("Have account?")
+                .padding(.horizontal)
             NavigationLink(
                 destination: LoginView(),
                 label: {
                     Text("Click here")
+                        .font(.system(size: 15))
                 })
                 .scaledToFit()
                 .colorMultiply(.blue)
